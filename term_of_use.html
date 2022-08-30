@@ -151,28 +151,103 @@
             width: 96%;
         }
 
-        @media only screen and (max-width:660px) {
+        .body-wrap p.grievance {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 5px 0;
+            color: #333333;
+        }
 
+        .body-wrap ul.grievance-list {
+            padding-left: 45px;
+        }
+
+        .body-wrap ul.grievance-list li {
+            line-height: 25px;
+        }
+
+        .header-wrap-mobile {
+            display: none;
+        }
+
+        @media only screen and (max-width:660px) {
 
             .container {
                 padding: 0 25px;
             }
 
+            .header-wrap {
+                display: none;
+            }
+
+            .header-wrap-mobile {
+                display: block;
+                margin-bottom: 25px;
+            }
+
+            .header-wrap-top {
+                display: flex;
+            }
+
+            .company-name {
+                padding-left: 5px;
+            }
+
             .tnc-wrap .srno {
-                width: 10%;
+                width: 15%;
             }
 
             .tnc-wrap .content {
-                width: 90%;
+                width: 85%;
                 line-height: 22px;
             }
 
+            .tnc-wrap .content .srno {
+                width: 22%;
+            }
+
+            .exhibitA {
+                flex-wrap: wrap;
+            }
+
+            .exhibitA .col1 {
+                width: 10%;
+            }
+
             .exhibitA .col2 {
-                width: 32%;
+                width: 90%;
             }
 
             .exhibitA .col3 {
-                width: 64%;
+                width: 100%;
+            }
+
+
+            .exhibitB .col1 {
+                width: 10%;
+            }
+
+            .exhibitB .col2 {
+                width: 90%;
+            }
+
+            .footer-info {
+                flex-wrap: wrap;
+                margin-top: 10px;
+            }
+
+            .footer-info-center {
+                display: none;
+            }
+
+            .footer-info-left {
+                width: 100%;
+                margin: 7px 0;
+            }
+
+            .footer-info-right {
+                width: 100%;
+                margin: 7px 0;
             }
         }
     </style>
@@ -193,6 +268,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="header-wrap-mobile">
+            <div class="header-wrap-top">
+                <div>
+                    <img src="/maventech-logo.png">
+                </div>
+                <div class="company-name">
+                    Maventech Labs Private Limited
+                </div>
+            </div>
+            <div class="company-address">
+                Gopala Krishna Complex, 1st Floor, #45/3 Residency Road, Bangaluru - 560025, Karnataka, India.
+            </div>
+        </div>
+
+
         <div class="body-wrap">
 
             <div class="start-page">
@@ -322,9 +413,9 @@
                             Computerised Reservation Software (CRS) or Online Passenger Reservation
                             Software (OPRS) which is an online bus ticketing platform / software used by
                             bus transporters to book bus tickets through its counters or agents’ outlets.
-                            MAVENCONNECTcomprises of two components – the API and windows
+                            MAVENCONNECT comprises of two components – the API and windows
                             desktop application. BusCRS comprises of the online web portal
-                            www.buscrs.com and www.bookbustickets.com.MAVENCONNECT and
+                            www.buscrs.com and www.bookbustickets.com. MAVENCONNECT and
                             BusCRS is seamlessly connected with each other.
                         </li>
                     </ul>
@@ -771,10 +862,8 @@
                         <li class="content">
                             All the above-mentioned software and new updates shall be deployed on
                             the server infrastructure.
-
                         </li>
                     </ul>
-
                 </li>
             </ul>
 
@@ -1614,25 +1703,13 @@
                     <b>1.</b>
                 </div>
                 <div class="col2">
-                    Effective Date
+                    Effective Date:
                 </div>
                 <div class="col3">
-                    : 1<sup>st</sup> day of September, 2021
+                    1<sup>st</sup> day of September, 2021
                 </div>
             </div>
 
-            <div class="exhibitA">
-                <div class="col1">
-                    <b>2.</b>
-                </div>
-                <div class="col2">
-                    Term of the Agreement
-                </div>
-                <div class="col3">
-                    : 1
-                    <sup>st</sup> day of September, 2022 to 31st day of March, 2030
-                </div>
-            </div>
 
             <p class="txtCt" style="padding-top:50px;">EXHIBIT B</p>
             <p class="txtCt" style="padding:25px 0 20px 0;">LIST OF DOCUMENTS TO BE SUBMITTED BY USER</p>
@@ -1695,6 +1772,22 @@
                     Bus Operator Registration Form or IamGDS Registration Form as the case maybe
                 </div>
             </div>
+
+            <p class="grievance">
+                <b>Grievance Contact Points</b><br>
+                For any prospective or current customers of Maventech Labs Private Limited, for any grievances our
+                contact address and Grievance officer details are as follows:
+            </p>
+
+            <ul class="grievance-list">
+                <li><b>Grievance Officer:</b> Sunita Iyer (Customer Service Head)
+                </li>
+                <li><b>Mailing address:</b> Gopala Krishna Complex, 1st Floor, #45/3 Residency Road, Bengaluru,
+                    Bangalore-560025, Karnataka, India</li>
+                <li><b>Customer Care Number:</b> +91 8047107878</li>
+                <li><b>Customer Care Email Address:</b> feedback@travelyaari.com</li>
+
+            </ul>
         </div>
         <div class="footer-wrap">
             <div class="footer-line">&nbsp;</div>
